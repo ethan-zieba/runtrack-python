@@ -1,4 +1,6 @@
 #We can print here each alphabet character one by one
+#The map function is used here to apply the "chr" function (that returns a character when its
+#unicode index is provided) to each number of the 97-123 range (corrsponding to the lowercase alphabet in unicode)
 for i in (list(map(chr, range(97, 123)))):
     print(i)
 
